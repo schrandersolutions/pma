@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PMA - Project Management Application
 
 A modern, production-ready microservices-based Project Management Application
@@ -7,6 +8,10 @@ Files: 92+
 Code: 40,150+ lines
 
 ## Documentation
+=======
+```markdown
+# 📚 PMA Documentation Index & Guide
+>>>>>>> d489e7f897dcd0f235daa143d2393e2e0e7c9ca9
 
 [FULL DOCUMENTATION](./docs/INDEX.md) - Start here!
 
