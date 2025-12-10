@@ -1,1 +1,13 @@
-FROM node:18-alpine\nWORKDIR /app\nCOPY package.json .\nRUN npm install\nCOPY . .\nRUN npm run build\nEXPOSE 3000\nCMD ["npm", "run", "dev"]
+FROM node:18-alpine
+
+WORKDIR /app
+
+COPY package.json .
+RUN npm install
+
+COPY . .
+RUN npm run build
+
+EXPOSE 3000
+
+CMD ["npm", "run", "dev"]
