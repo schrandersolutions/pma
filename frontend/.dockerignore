@@ -1,0 +1,23 @@
+# Git and VCS
+.git
+.gitignore
+
+# Node modules and caches
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Build output (if building inside Docker, keep dist/ if needed)
+dist/
+build/
+
+# Environment files
+.env
+.env.*

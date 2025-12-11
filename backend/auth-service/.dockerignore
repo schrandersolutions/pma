@@ -1,0 +1,32 @@
+# Git and VCS
+.git
+.gitignore
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pytest_cache/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Virtualenvs
+venv/
+env/
+.env
+.env.*
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Tests and docs (optional)
+tests/
+docs/
+
+# Local files not needed in image
+*.log
+*.md
+
